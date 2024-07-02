@@ -5,7 +5,6 @@ import 'package:nehhdc_app/Model_Screen/APIs_Screen.dart';
 import 'package:nehhdc_app/Model_Screen/ILogin_Screen.dart';
 import 'package:nehhdc_app/Model_Screen/Url_Screen.dart';
 import 'package:nehhdc_app/Other_Screen/Forget_Password.dart';
-import 'package:nehhdc_app/Screen/Bottom_Screen.dart';
 import 'package:nehhdc_app/Setting_Screen/Setting_Screen.dart';
 import 'package:nehhdc_app/Setting_Screen/Static_Verible';
 import 'package:nehhdc_app/Welcome_Screen/NewRegistration.dart';
@@ -473,15 +472,6 @@ class _Login_ScreenState extends State<Login_Screen> {
                         ),
                       ],
                     ),
-                    TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (BuildContext context) =>
-                                      Bottom_Screen()));
-                        },
-                        child: Text("Skip"))
                   ],
                 ),
               ),
